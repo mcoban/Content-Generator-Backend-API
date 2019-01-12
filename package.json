@@ -1,0 +1,35 @@
+{
+  "name": "content-generator-backend-api",
+  "version": "1.0.0",
+  "description": "This respository contains all api functions related to Content Generator Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcoban/Content-Generator-Backend-API.git"
+  },
+  "keywords": [
+    "content",
+    "generator"
+  ],
+  "author": "Müslüm Çoban <mcoban86@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcoban/Content-Generator-Backend-API/issues"
+  },
+  "homepage": "https://github.com/mcoban/Content-Generator-Backend-API#readme",
+  "dependencies": {
+    "article-parser": "^2.4.0",
+    "bcrpyt": "^2.0.0",
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.3",
+    "morgan": "^1.9.1"
+  }
+}
